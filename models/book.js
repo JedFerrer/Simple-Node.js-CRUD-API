@@ -2,8 +2,20 @@
 
 module.exports = function(sequelize, DataTypes) {
   var Model = sequelize.define("Book", {
-    title: DataTypes.STRING,
-    description: DataTypes.STRING
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: true
+      }
+    },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: true
+      }
+    }
   });
 
   return Model;
