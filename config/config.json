@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "jed",
+    "password": "1234",
+    "database": "crud",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": "5555"
+  }
+}
