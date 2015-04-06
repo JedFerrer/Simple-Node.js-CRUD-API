@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var indexController = require('./controllers/route-controllers/index');
+var indexController = require('./controllers/page-controllers/index');
 
 var bookController = require('./controllers/api-controllers/book');
 
